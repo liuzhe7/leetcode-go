@@ -15,11 +15,10 @@ func reversePrint(head *ListNode) []int {
 		array = append(array, head.Val)
 		head = head.Next
 	}
-	reverseArray := make([]int, len(array), len(array))
-	reverseArrayIndex := 0
-	for index := len(array) - 1; index >= 0; index-- {
-		reverseArray[reverseArrayIndex] = array[index]
-		reverseArrayIndex++
+	for left, right := 0, len(array)-1; left < right; {
+		array[left], array[right] = array[right], array[left]
+		left++
+		right--
 	}
-	return reverseArray
+	return array
 }
