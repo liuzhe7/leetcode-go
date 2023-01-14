@@ -10,24 +10,24 @@ https://leetcode.cn/problems/valid-parentheses/
 package stack
 
 func isValid(s string) bool {
-	stack := &StackRune{}
+	var stack []rune
 	for _, char := range s {
 		switch char {
 		case '(':
-			stack.Insert(')')
+			stack = append(stack, ')')
 		case '[':
-			stack.Insert(']')
+			stack = append(stack, ']')
 		case '{':
-			stack.Insert('}')
+			stack = append(stack, '}')
 		default:
-			c, err := stack.Pop()
-			if err != nil {
+			if len(stack) == 0 {
 				return false
 			}
-			if c != char {
+			if char != stack[len(stack)-1] {
 				return false
 			}
+			stack = stack[:len(stack)-1]
 		}
 	}
-	return len(stack.list) == 0
+	return len(stack) == 0
 }
