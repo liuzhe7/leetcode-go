@@ -22,14 +22,23 @@ type ListNode struct {
 	Next *ListNode
 }
 
+// f(n,val) =
+// list = f(n.next,val)
+// if n.val != val {
+// n.next = list
+// list = n
+// }
+// return list
+
+// n == nil
 func removeElements(head *ListNode, val int) *ListNode {
-	if nil == head {
+	if head == nil {
 		return head
 	}
-
-	head.Next = removeElements(head.Next, val)
-	if head.Val == val {
-		return head.Next
+	list := removeElements(head.Next, val)
+	if head.Val != val {
+		head.Next = list
+		list = head
 	}
-	return head
+	return list
 }
