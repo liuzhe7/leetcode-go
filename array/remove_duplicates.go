@@ -14,10 +14,11 @@ package array
 func removeDuplicates(nums []int) int {
 	slow := 1
 	for fast := 1; fast < len(nums); fast++ {
-		if nums[fast] != nums[fast-1] {
+		if nums[slow-1] != nums[fast] {
 			nums[slow] = nums[fast]
-			slow += 1
+			slow++
 		}
 	}
+	nums = nums[:slow]
 	return slow
 }
