@@ -7,7 +7,7 @@ Date   : 2023/1/15
 https://leetcode.cn/problems/number-of-recent-calls/
 **********************************************************************************/
 
-package recentcounter
+package queue
 
 type RecentCounter struct {
 	queue []int

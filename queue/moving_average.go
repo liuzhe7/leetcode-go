@@ -7,7 +7,7 @@ Date   : 2023/1/15
 https://leetcode.cn/problems/qIsx9U/
 **********************************************************************************/
 
-package movingaverage
+package queue
 
 type MovingAverage struct {
 	width, sum int
