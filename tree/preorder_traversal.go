@@ -4,7 +4,7 @@ Date   : 2023/1/17
 */
 
 /**********************************************************************************
-https://leetcode.cn/problems/binary-tree-preorder-traversal/submissions/
+https://leetcode.cn/problems/binary-tree-preorder-traversal/
 **********************************************************************************/
 
 package tree

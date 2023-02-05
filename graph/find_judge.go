@@ -4,7 +4,7 @@ Date   : 2023/1/31
 */
 
 /**********************************************************************************
-https://leetcode.cn/problems/find-the-town-judge/submissions/
+https://leetcode.cn/problems/find-the-town-judge/
 **********************************************************************************/
 
 package graph

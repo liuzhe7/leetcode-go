@@ -4,7 +4,7 @@ Date   : 2023/1/27
 */
 
 /**********************************************************************************
-https://leetcode.cn/problems/longest-common-prefix/submissions/
+https://leetcode.cn/problems/longest-common-prefix/
 **********************************************************************************/
 
 package string

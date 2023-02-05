@@ -4,7 +4,7 @@ Date   : 2023/1/30
 */
 
 /**********************************************************************************
-https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/submissions/
+https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/
 **********************************************************************************/
 
 package stack

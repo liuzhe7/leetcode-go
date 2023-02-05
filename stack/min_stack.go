@@ -4,7 +4,7 @@ Date   : 2023/1/30
 */
 
 /**********************************************************************************
-https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof/submissions/
+https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof/
 **********************************************************************************/
 
 package stack

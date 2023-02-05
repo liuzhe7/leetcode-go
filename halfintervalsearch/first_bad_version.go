@@ -4,7 +4,7 @@ Date   : 2023/1/17
 */
 
 /**********************************************************************************
-https://leetcode.cn/problems/first-bad-version/submissions/
+https://leetcode.cn/problems/first-bad-version/
 **********************************************************************************/
 
 package halfintervalsearch

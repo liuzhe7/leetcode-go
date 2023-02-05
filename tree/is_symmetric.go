@@ -4,7 +4,7 @@ Date   : 2023/1/18
 */
 
 /**********************************************************************************
-https://leetcode.cn/problems/symmetric-tree/submissions/
+https://leetcode.cn/problems/symmetric-tree/
 **********************************************************************************/
 
 package tree

@@ -4,7 +4,7 @@ Date   : 2023/1/28
 */
 
 /**********************************************************************************
-https://leetcode.cn/problems/running-sum-of-1d-array/submissions/
+https://leetcode.cn/problems/running-sum-of-1d-array/
 **********************************************************************************/
 
 package array

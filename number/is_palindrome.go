@@ -4,7 +4,7 @@ Date   : 2023/1/29
 */
 
 /**********************************************************************************
-https://leetcode.cn/problems/palindrome-number/submissions/
+https://leetcode.cn/problems/palindrome-number/
 **********************************************************************************/
 
 package number
